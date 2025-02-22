@@ -1,63 +1,132 @@
 <!DOCTYPE html>
 <html>
    <head>
-    <title>Copa Bella</title> 
-      <meta charset="UTF-8">
-      <meta name="author" content="Heroz">
-      <meta name="description" content="venta de las mejores bebidas para tus fiestas de cumpleaños,aniversario">
-      <meta name="keywords" content="Copa Bella">
-      <meta name="viewport" content="width=device-with,initial-scale=1.0">
-   </head> 
-   <body>
-       <header>
-        <table width="100">
-            <tbody>
-                <tr>
-                    <td width="30">
-                       <a href="../index.html">
-                            <img width="70" src="../dist/image/Foto de Perfil - 1.png">
-                       </a>
-                    </td>
-                    <td>
-                       <h1>Copa Bella</h1>
-                    </td>
-                    <td align="left">
-                        <nav>
-                            <table>
-                                <tbody>
-                                    <tr>
-                                        <td><a href="Productos.html"></a></td>
-                                        <td><a href="Contacto.html"></a></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </nav>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        <main>
-            <secction id="secction">
+        <title>Copa Bella</title> 
+        <meta charset="UTF-8">
+        <meta name="author" content="Heroz">
+        <meta name="description" content="venta de las mejores bebidas para tus fiestas de cumpleaños,aniversario">
+        <meta name="keywords" content="Copa Bella">
+        <meta name="viewport" content="width=device-with,initial-scale=1.0">
+    </head> 
+        <body>
+            <header>
+                <table width="100">
+                    <tbody>
+                        <tr>
+                            <td width="30">
+                                <a href="../index.html">
+                                    <img width="70" src="../dist/image/Foto de Perfil - 1.png">
+                                </a>
+                            </td>
+                            <td>
+                                <h1>Copa Bella</h1>
+                            </td>
+                            <td align="left">
+                                <nav>
+                                    <table>
+                                        <tbody>
+                                            <tr>
+                                                <td><a href="Productos.html"></a></td>
+                                                <td><a href="Contacto.html"></a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </nav>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            <main>
+                <secction id="secction">
                     <table width="100%" bgcolor="#d4ef13">
                         <tbody>
                             <tr>
                                 <td width="10"></td>
-                                <td width="50"align="center">
-                                    <h1>"Sumergete en la sofisticación y el sabor inigualable de nuestros licores selectos".</h1>
-                                    <p>Licor que inspira tus mejores momentos</p>
-                                </td>
+                                    <td width="50"align="center">
+                                        <h1>"Sumergete en la sofisticación y el sabor inigualable de nuestros licores selectos".</h1>
+                                        <p>Licor que inspira tus mejores momentos</p>
+                                    </td>
                                 <td width="10"></td>
                                 <td width="30">
-                                    <img width="100%"align="right" src="C:\Users\Heros\OneDrive\Desktop\COMPUTACION E INFORMATICA IDAT\DESARROLLO WEB IDAT\MI WEB\dist\image\GIF.gif">
+                                    <img width="100%"align="right" src="../dist/image/GIF.gif">
                                 </td>
                             </tr>
                         </tbody>
                     </table>
-            </secction>
-        </main>
-        <video width="440px" loop="true" autoplay="autoplay" controls>
-        <source src="dist/image/video/animation - whisky.mp4" type="video/mp4"autoplay>
-      </video>
-       </header>
-   </body>
+                </secction>
+            </main>
+
+            <div class="wrapper"> 
+                <td width="100" align="right">
+                    <a href="https://www.facebook.com/share/Herozmendoza" target="=_blank"> 
+                        <img src="../dist/image/FACEBOOK.jpg" alt="facebook" width="40">   
+                    </a>
+                    <a href="https://www.instagram.com/share/Herozmendoza" target="=_blank">
+                        <img src="../dist/image/INSTAGRAM.jpg" alt="INSTAGRAM" width="40">   
+                    </a>
+                    <a href="https://wa.me/973372053" target="=_blank">
+                        <img src="../dist/image/WHATSAPP.png" alt="WHATSAPP" width="40">   
+                    </a>
+                </td>
+            </div>
+            <br>
+
+        <body>
+            <p aling="center">
+                <a ref="Productos.html">volver ala tienda</a>
+            </p>
+                <h1 aling="center">registrate</h1>
+                    <form action="procesar_registro.php" method="post" aling="center">
+                    <fieldset style="width: 50%; margin: auto; padding: 20px;">
+                        <legend><strong>crear una cuenta</strong></legend>
+                
+                        <label for="nombre"><strong>Nombre</strong></label><br>
+                        <input type="text" id="nombre" name="nombre" size="30" required><br><br>
+
+                        <label for="email"><strong>correo electrónico</strong></label><br>
+                        <input type="email" id="email" name="email" size="30" required><br><br>
+
+                        <label for="password"><strong>contraseña</strong></label><br>
+                        <input type="password" id="password" name="password" size="30" required><br><br>
+                
+                        <button type="submit" style="font-size: 20px; padding: 10px;"><strong>Registrarse</strong></button>
+                    </fieldset>  
+                    </form>
+
+            <h2 aling="center">¿ya tienes tu cuenta?</h2>
+            <p aling="center">
+                <a ref="login.html" style="font-size: 18px;"><strong>inicia sesion aqui</strong></a>
+            </p>
+        </header>
+        </body>
+
+            <table width="100%" border="0">
+                <tr>
+                    <td width="50%" align="center">
+                        <video width="440px" loop="true" autoplay="autoplay" controls>
+                            <source src="../dist/image/video/Johnnie Walker  - CINEMATIC WHISKY COMMERCIAL.mp4" type="video/mp4"autoplay>
+                        </video>
+                    </td>
+                    <td width="50%" align="left">
+                        <video width="440px" loop="true" autoplay="autoplay" controls>
+                            <source src="../dist/image/video/animation - whisky.mp4" type="video/mp4"autoplay>
+                        </video>
+                     </td>
+                </tr>  
+            </table>                     
+        </body>
 </html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<title>Whisky &#8211; ALMENDARIZ &#8211; LICORERÍA ONLINE</title>
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel='dns-prefetch' href='//www.googletagmanager.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel="alternate" type="application/rss+xml" title="ALMENDARIZ - LICORERÍA ONLINE &raquo; Feed" href="https://almendariz.com.pe/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ALMENDARIZ - LICORERÍA ONLINE &raquo; Feed de los comentarios" href="https://almendariz.com.pe/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="ALMENDARIZ - LICORERÍA ONLINE &raquo; Whisky Categoría Feed" href="https://almendariz.com.pe/categoria-producto/whisky/feed/" />
+<script>
