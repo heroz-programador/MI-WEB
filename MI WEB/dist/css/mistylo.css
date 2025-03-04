@@ -1,0 +1,32 @@
+h1 {
+    color: rgb(223, 154, 49);
+}   
+
+.title
+{
+    color: blue;
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 100px;
+}
+
+#titulobanner 
+{
+    color: blueviolet;
+}
+
+.mymenu
+{
+    border: 1px; color: blue;
+    border-radius: 10px;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 5px;
+    color: beige;
+}
+
+.mymenu:hover{
+    background-color: brown;
+}
+
+
